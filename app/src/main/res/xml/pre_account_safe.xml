@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="182xxx494"
+        android:inputType="text"
+        android:key="account_edit_phonrnumber"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="修改绑定手机号" />
+
+    <SwitchPreference
+        android:key="account_safe_check"
+        android:summary="当登录账号时，自动检查账户是否安全!"
+        android:title="安全登录检查" />
+
+    <Preference
+        android:title="退出当前账号"
+        android:key="quit_account"
+        />
+
+
+
+
+</PreferenceScreen>

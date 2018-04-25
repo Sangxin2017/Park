@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ips.sx.ipark.MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/main_toolbar"
+                />
+
+            <com.baidu.mapapi.map.MapView
+                android:id="@+id/activity_main_mapview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true" />
+
+
+        </LinearLayout>
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_gravity="bottom|right"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/activity_main_gotomylocation"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/activity_main_floatbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/activity_main_user"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/activity_main_user"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

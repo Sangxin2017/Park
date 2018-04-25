@@ -1,0 +1,43 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.ips.sx.ipark.view.SettingsActivity$AccountSafePreferenceFragment"
+        android:icon="@drawable/set_user"
+        android:title="账户和安全" />
+
+    <header
+        android:fragment="com.ips.sx.ipark.view.SettingsActivity$TongxunPreferenceFragment"
+        android:icon="@drawable/set_tongxun"
+        android:title="通讯录" />
+
+    <header
+        android:fragment="com.ips.sx.ipark.view.SettingsActivity$LukuangPreferenceFragment"
+        android:icon="@drawable/set_lukuang"
+        android:title="实时路况" />
+
+    <header
+        android:fragment="com.ips.sx.ipark.view.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/set_voice"
+        android:title="语音通知" />
+
+
+    <header
+        android:fragment="com.ips.sx.ipark.view.SettingsActivity$FalvPreferenceFragment"
+        android:icon="@drawable/set_falv"
+        android:title="法律条款和隐私政策" />
+
+
+    <header
+        android:fragment="com.ips.sx.ipark.view.SettingsActivity$FalvPreferenceFragment"
+        android:icon="@drawable/set_guanyu"
+        android:title="关于软件" />
+
+
+
+
+
+
+
+</preference-headers>
